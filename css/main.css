@@ -32,6 +32,7 @@ h1 {
 
 ul {
   margin-bottom: 0;
+  padding-left: 0;
   text-align: center;
 }
 
@@ -43,4 +44,21 @@ li {
 a {
   color: #0074d9;
   text-decoration: none;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  ul {
+    text-align: right;
+  }
+
 }
